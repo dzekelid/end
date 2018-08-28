@@ -19,6 +19,30 @@ produces:
 consumes:
 - application/json
 paths:
+  //{hostname}/games/2:
+    patch:
+      summary: End Game
+      description: ""
+      operationId: Games2ByHostnamePatch2
+      x-api-path-slug: hostnamegames2-patch
+      parameters:
+      - in: body
+        name: Body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Content-Type
+      - in: path
+        name: hostname
+      - in: header
+        name: x-client-auth
+      - in: header
+        name: x-client-bearer-token
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""
   /admin/api/end_user_plans.xml:
     get:
       summary: End User Plan List (all services)

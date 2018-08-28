@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: End
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Charcoal API - End Game
+  x-api-slug: hostnamegames2-patch
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://http://
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/hostnamegames2-patch-openapi.md
 - name: 3Scale Account Management API - End User Plan List (all services)
   x-api-slug: adminapiend-user-plans-xml-get
   description: End user plan list (all services).
@@ -51,6 +62,105 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-put-openapi.md
+- name: 3Scale Account Management API - End User Create
+  x-api-slug: adminapiservicesservice-idend-users-xml-post
+  description: End user create.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-users-xml-post-openapi.md
+- name: 3Scale Account Management API - End User Delete
+  x-api-slug: adminapiservicesservice-idend-usersusername-xml-delete
+  description: End user delete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-usersusername-xml-delete-openapi.md
+- name: 3Scale Account Management API - End User Read
+  x-api-slug: adminapiservicesservice-idend-usersusername-xml-get
+  description: End user read.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-usersusername-xml-get-openapi.md
+- name: 3Scale Account Management API - End User Change Plan
+  x-api-slug: adminapiservicesservice-idend-usersusernamechange-plan-xml-put
+  description: End user change plan.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-usersusernamechange-plan-xml-put-openapi.md
+- name: 3Scale Account Management API - End User Plan List
+  x-api-slug: adminapiservicesservice-idend-user-plans-xml-get
+  description: End user plan list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-user-plans-xml-get-openapi.md
+- name: 3Scale Account Management API - End User Plan Create
+  x-api-slug: adminapiservicesservice-idend-user-plans-xml-post
+  description: End user plan create.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-user-plans-xml-post-openapi.md
+- name: 3Scale Account Management API - End User Plan Read
+  x-api-slug: adminapiservicesservice-idend-user-plansid-xml-get
+  description: End user plan read.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-user-plansid-xml-get-openapi.md
+- name: 3Scale Account Management API - End User Plan Update
+  x-api-slug: adminapiservicesservice-idend-user-plansid-xml-put
+  description: End user plan update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-user-plansid-xml-put-openapi.md
+- name: 3Scale Account Management API - End User Plan set to Default
+  x-api-slug: adminapiservicesservice-idend-user-plansiddefault-xml-put
+  description: End user plan set to default.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/3scale/adminapiservicesservice-idend-user-plansiddefault-xml-put-openapi.md
 - name: 3Scale Account Management API - Limit List for End User Plans
   x-api-slug: adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-get
   description: Limit list for end user plans .

@@ -21,11 +21,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: End
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-pinpoint/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Pinpoint API - Endpoints List
+  x-api-slug: appsapplicationidendpoints-put
+  description: Use the PUT method to update your endpoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-pinpoint/appsapplicationidendpoints-put-openapi.md
+- name: AWS Pinpoint API - Endpoint Instance
+  x-api-slug: appsapplicationidendpointsendpointid-get
+  description: Use the GET method to request information about an endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-pinpoint/appsapplicationidendpointsendpointid-get-openapi.md
+- name: AWS Pinpoint API - Update Endpoint Instance
+  x-api-slug: appsapplicationidendpointsendpointid-put
+  description: Use the PUT method to update an endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-pinpoint/appsapplicationidendpointsendpointid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.opsworks.api.gallery.streamdata.io

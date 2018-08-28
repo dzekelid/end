@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: End
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-device-farm/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Device Farm API - Stop Remote Access Session
+  x-api-slug: actionstopremoteaccesssession-get
+  description: Ends a specified remote access session.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-device-farm/actionstopremoteaccesssession-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.database.migration.service.api.gallery.streamdata.io

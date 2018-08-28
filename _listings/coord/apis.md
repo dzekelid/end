@@ -8,11 +8,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "1035226"
 tags: End
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/coord/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Parking Access API - End a previously started session
+  x-api-slug: location-idsessionsession-idend-put
+  description: |-
+    End a previously started session. Note that it is invalid to call this method for sessions
+    where checkout is controlled physically (those returned with a `redemption_info` field).
+
+    On success, the response will be the existing session with billing info:
+    ```
+      {
+        "billing_info": {
+          "cost": {
+            "amount": 100,
+            "currency": "USD"
+          }
+        },
+        "end_time": "2018-04-12T00:17:50.161Z",
+        "id":1,
+        "start_time":"2018-04-12T00:14:20.292Z",
+        "user_id":"00000000-0000-0000-0000-000000000000"
+      }
+    ```
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png
+  humanURL: https://coord.co
+  baseURL: https://api.coord.co//v1/access/parking
+  tags: Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/coord/location-idsessionsession-idend-put-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/coord

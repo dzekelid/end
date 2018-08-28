@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Coord
 x-complete: 1
@@ -14,4 +13,42 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /{location_id}/session/{session_id}/end:
+    put:
+      summary: End a previously started session
+      description: |-
+        End a previously started session. Note that it is invalid to call this method for sessions
+        where checkout is controlled physically (those returned with a `redemption_info` field).
+
+        On success, the response will be the existing session with billing info:
+        ```
+          {
+            "billing_info": {
+              "cost": {
+                "amount": 100,
+                "currency": "USD"
+              }
+            },
+            "end_time": "2018-04-12T00:17:50.161Z",
+            "id":1,
+            "start_time":"2018-04-12T00:14:20.292Z",
+            "user_id":"00000000-0000-0000-0000-000000000000"
+          }
+        ```
+      operationId: end_session
+      x-api-path-slug: location-idsessionsession-idend-put
+      parameters:
+      - in: query
+        name: access_key
+        description: The API access key for the request
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - End
+      - Previously
+      - Started
+      - Session

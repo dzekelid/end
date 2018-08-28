@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: End
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
@@ -34,6 +34,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-ec2/actioncreatevpcendpoint-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-ec2/actioncreatevpcendpoint-get-openapi.md
+- name: AWS EC2 API - Delete Vpc Endpoints
+  x-api-slug: actiondeletevpcendpoints-get
+  description: Deletes one or more specified VPC endpoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-ec2/actiondeletevpcendpoints-get-openapi.md
+- name: AWS EC2 API - Describe Vpc Endpoints
+  x-api-slug: actiondescribevpcendpoints-get
+  description: Describes one or more of your VPC endpoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-ec2/actiondescribevpcendpoints-get-openapi.md
+- name: AWS EC2 API - Describe Vpc Endpoint Services
+  x-api-slug: actiondescribevpcendpointservices-get
+  description: Describes all supported AWS services that can be specified when creating
+    a VPC endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/end/master/_listings/aws-ec2/actiondescribevpcendpointservices-get-openapi.md
 - name: AWS EC2 API - Modify Vpc Endpoint
   x-api-slug: actionmodifyvpcendpoint-get
   description: Modifies attributes of a specified VPC endpoint.
